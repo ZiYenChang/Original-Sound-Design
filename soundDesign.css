@@ -1,0 +1,104 @@
+
+body{
+  background-color: #0B002B;
+  background-image: url('bgImage.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.button {
+  background-color: #150684;
+  outline: none;
+  border: none;
+  opacity: 0.7;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.button:hover {
+  opacity: 1;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+#start{
+  margin-right: 5px;
+  padding: 1% 7%;
+}
+
+#stop{
+  margin-top: 30px;
+  padding: 1% 5%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 15%;
+  height: 8px;
+  border-radius: 5px;
+  background: #150684;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  background: url('rainIcon.png');
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 35px;
+  height: 35px;
+  border: 0;
+  background: url('rainIcon.png');
+  cursor: pointer;
+}
+
+#quote{
+  margin-top: 2%;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Courier New', monospace;
+}
+
+#time{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#ShowTime{
+  position: absolute;
+  margin-top: 10%;
+  text-align: center;
+  margin-left: 80%;
+  font-size: 20px;
+  font-family: 'Courier New', monospace;
+}
+
+#StartRec, #StopRec{
+  margin-right: 5px;
+  margin-top: 10px;
+  padding: 1% 2%;
+}
+audio{
+  margin-top: 60px;
+  color: #150684;
+}
